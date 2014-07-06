@@ -1,0 +1,139 @@
+@(title:String)(body:Html)
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title> @title </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Hi All!!!">
+        <meta name="generator" content="GitBook 0.5.2">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="shortcut icon" href="@routes.Assets.at("images/favicon.ico")" type="image/x-icon">
+
+    </head>
+    <body>
+
+
+        <link rel="stylesheet" href="@routes.Assets.at("stylesheets/style.css")">
+
+
+
+        <div class="book"  data-level="0" data-basepath="." data-revision="1404651984254">
+            <div class="book-header">
+                    <!-- Actions Left -->
+                <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+
+                <span id="font-settings-wrapper">
+                    <a href="#" class="btn pull-left toggle-font-settings" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+                    </a>
+                    <div class="dropdown-menu font-settings">
+                        <div class="dropdown-caret">
+                            <span class="caret-outer"></span>
+                            <span class="caret-inner"></span>
+                        </div>
+
+                        <div class="btn-group btn-block">
+                            <button id="reduce-font-size" class="btn btn-default">A</button>
+                            <button id="enlarge-font-size" class="btn btn-default">A</button>
+                        </div>
+
+                        <ul class="list-group font-family-list">
+                            <li class="list-group-item" data-font="0">Serif</li>
+                            <li class="list-group-item" data-font="1">Sans</li>
+                        </ul>
+
+                        <div class="btn-group btn-group-xs btn-block color-theme-list">
+                            <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+                            <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+                            <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+                        </div>
+                    </div>
+
+                    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-github"></i></a>
+
+
+                    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+
+
+                    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+
+                </span>
+
+                    <!-- Actions Right -->
+
+
+
+
+                    <!-- Title -->
+                <h1>
+                    <i class="fa fa-spinner fa-spin"></i>
+                    <a href="./" ></a>
+                </h1>
+            </div>
+
+
+
+            <div class="book-summary">
+                <div class="book-search">
+                    <input type="text" placeholder="Search" class="form-control" />
+                </div>
+                <ul class="summary">
+
+
+                    <li data-level="0" >
+                        <a href="@routes.Application.index()">Dahboard</a>
+                    </li>
+                    <li data-level="0" >
+                        <a href="@routes.ScalaBook.introduction()"> Scala</a>
+                    </li>
+                    <li data-level="0">
+                        <a href="@routes.Application.aboutme()"> About Me</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="book-body">
+                <div class="body-inner">
+                    <div class="page-wrapper" tabindex="-1">
+                        <div class="page-inner">
+
+                            <section class="normal" id="section-gitbook_125">
+
+                               @body
+
+
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <script src="@routes.Assets.at("javascripts/jsrepl.js")" id="jsrepl-script"></script>
+        <script src="@routes.Assets.at("javascripts/app.js")"></script>
+
+
+        <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+        <script>
+        require(["gitbook"], function(gitbook) {
+        var config = {};
+        gitbook.start(config);
+        });
+        </script>
+
+
+    </body>
+
+</html>
