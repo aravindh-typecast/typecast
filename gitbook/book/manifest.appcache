@@ -1,13 +1,19 @@
 CACHE MANIFEST
-# Revision 1404660758402
+# Revision 1404732664352
 
 CACHE:
 index.html
 collections/README.html
 collections/arrays.html
 data_structures/lists.html
+fundamentals/README.html
+fundamentals/basic_datatypes.html
 fundamentals/do_while_doing_while.html
-installation/README.html
+fundamentals/if_expression.html
+fundamentals/multiple_generators.html
+fundamentals/vals_&_vars.html
+getting_started/README.html
+introduction/README.html
 gitbook/app.js
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot

@@ -1,4 +1,4 @@
-@(title:String)(body:Html)
+@(title:String)(body:Html)(prev:String)(next:String)
 <!DOCTYPE HTML>
 <html lang="en-US">
 
@@ -91,7 +91,7 @@
 
                     <li class="chapter " data-level="1" data-path="installation/README.html">
 
-                        <a href="./installation/README.html">
+                        <a href="@routes.ScalaBook.introduction()">
                             <i class="fa fa-check"></i> <b>1.</b> Introduction
                         </a>
 
@@ -465,7 +465,7 @@
                             <li class="chapter " data-level="5.4" data-path="traits/stackable_traita">
 
                                 <a href="./traits/stackable_traita">
-                                    <i class="fa fa-check"></i> <b>5.4.</b> Stackable Traita
+                                    <i class="fa fa-check"></i> <b>5.4.</b> Stackable Traits
                                 </a>
 
 
@@ -966,9 +966,6 @@
 
 
                     <li class="divider"></li>
-                    <li>
-                        <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Generated using GitBook</a>
-                    </li>
 
                 </ul>
             </div>
@@ -976,7 +973,7 @@
             <div class="book-body">
                 <div class="body-inner">
                     <div class="page-wrapper" tabindex="-1">
-                        <div class="page-inner">
+                        <div class="page-inner" style="text-align: justify">
 
                             <section class="normal" id="section-gitbook_125">
 
@@ -988,7 +985,8 @@
                         </div>
                     </div>
                 </div>
-
+                <a href="@prev" class="navigation navigation-prev " aria-label="Previous page: Introduction"><i class="fa fa-angle-left"></i></a>
+                <a href="@next" class="navigation navigation-next " aria-label="Next page: Getting Started" style="margin-right: 0px;"><i class="fa fa-angle-right"></i></a>
             </div>
         </div>
 
