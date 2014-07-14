@@ -5,7 +5,8 @@
 # Home page
 GET     /                           controllers.Application.index
 GET     /aboutme                          controllers.Application.aboutme
-GET     /scala/introduction                          controllers.ScalaBook.introduction
+GET     /scala/book/preface                          controllers.ScalaBook.preface
+GET     /scala/book/introduction                          controllers.ScalaBook.introduction
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

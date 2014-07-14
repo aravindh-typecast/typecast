@@ -1,0 +1,14 @@
+                    <div class="col-md-4 rotateOut">
+                        <div class="panel" style="border: 1px solid #000000">
+                            <div class="panel-heading text-center" style="padding: 3px 3px"><h3 style="font-size: 25px">Introduction to scala</h3></div>
+                            <div class="panel-body" style="text-align : justify">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, maiores veritatis. Ab beatae commodi consequuntur corporis, dolore facilis magnam non odit perferendis ratione sapiente sed sit suscipit tenetur voluptatibus. Porro!
+                            <div class="pull-right">
+                                <span class="label label-default">Scala</span>
+                                <span class="label label-default">10th Jan 2014</span>
+                                <a href="http://localhost:9000/scala/gettingstarted" class="btn btn-default">Read More</a>
+                            </div>
+                            </div>
+
+                        </div>
+                    </div>

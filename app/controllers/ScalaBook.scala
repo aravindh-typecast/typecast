@@ -7,4 +7,8 @@ object ScalaBook extends Controller{
 	def introduction = Action{
 		Ok(views.html.scala.introduction())
 	}
+
+	def preface = Action{
+		Ok(views.html.scala.preface())
+	}
 }

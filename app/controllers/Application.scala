@@ -14,3 +14,4 @@ object Application extends Controller {
 	}
 
 }
+
